@@ -7,9 +7,9 @@ import lombok.*;
 @Getter
 @Setter
 @Builder
-@Table(name = "course_student")
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
+@Table(name = "courses_students")
 public class CourseStudent {
 
     @Id

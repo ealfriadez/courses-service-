@@ -10,8 +10,8 @@ import java.util.List;
 @Getter
 @Setter
 @Builder
-@Table(name = "courses")
 @AllArgsConstructor
+@Table(name = "courses")
 public class CourseEntity {
 
     @Id

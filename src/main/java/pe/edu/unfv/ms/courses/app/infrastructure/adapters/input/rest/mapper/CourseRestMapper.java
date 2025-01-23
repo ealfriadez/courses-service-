@@ -5,8 +5,6 @@ import org.mapstruct.ReportingPolicy;
 import pe.edu.unfv.ms.courses.app.domain.models.Course;
 import pe.edu.unfv.ms.courses.app.infrastructure.adapters.input.rest.models.request.CourseCreateRequest;
 
-import java.util.List;
-
 @Mapper(componentModel = "spring", unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface CourseRestMapper {
 

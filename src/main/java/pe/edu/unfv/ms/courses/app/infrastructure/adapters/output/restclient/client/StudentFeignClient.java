@@ -8,7 +8,7 @@ import pe.edu.unfv.ms.courses.app.domain.models.Student;
 
 import java.util.List;
 
-@FeignClient(name = "students-service", url = "http://localhost:8090")
+@FeignClient(name = "students-service", url = "${students-service.url}")
 public interface StudentFeignClient {
 
     @GetMapping("/students/{id}")
